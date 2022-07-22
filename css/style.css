@@ -1,0 +1,163 @@
+:root {
+
+  --brightOrange: hsl(31, 77%, 52%);
+
+  --darkCyan: hsl(184, 100%, 22%);
+
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+}
+
+
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+
+
+body {
+
+  font-family: 'Lexend Deca', sans-serif;
+
+  width: 70%;
+
+  height: 120vh;
+
+  margin: auto;
+
+}
+
+
+
+.container {
+
+  display: flex;
+
+  height: 110vh;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+
+
+.card1,
+
+.card2,
+
+.card3 {
+
+  padding: 20px 30px;
+
+  color: white;
+
+}
+
+
+
+.card1 {
+
+  background-color: var(--brightOrange);
+
+}
+
+.card2 {
+
+  background-color: var(--darkCyan);
+
+}
+
+.card3 {
+
+  background-color: var(--veryDarkCyan);
+
+}
+
+
+
+.card1 img,
+
+.card2 img,
+
+.card3 img {
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.card1 h2,
+
+.card2 h2,
+
+.card3 h2 {
+
+  margin-bottom: 15px;
+
+}
+
+
+
+.card1 p,
+
+.card2 p,
+
+.card3 p {
+
+  margin-bottom: 40px;
+
+}
+
+
+
+.learnMore1 a,
+
+.learnMore2 a,
+
+.learnMore3 a {
+
+  padding: 15px 25px;
+
+ background-color: white;
+
+  text-decoration: none;
+
+  border-radius: 25px;
+
+  border: none;
+
+}
+
+.learnMore1 a {
+				color: var(--brightOrange);
+}
+
+.learnMore2 a {
+				color: var(--darkCyan);
+}
+
+.learnMore3 a {
+				color: var(--veryDarkCyan);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+
+    flex-direction: column;
+
+  }
+
+}
+
